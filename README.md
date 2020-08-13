@@ -1,13 +1,7 @@
 # WS2021_test
 
-Okay, I wrote a comment instead of a readme ... 
-I am confused...
 
-
-should I make changes here?
-
-
-To do: How to schreiben
+## How to git
 
 1) GitHub Account anlegen (kann dann auch nach dem Semester gelöscht werden)
 2) Installiere Git (Link zur Seite) + ggf GUI (nur wenn sie wollen)
