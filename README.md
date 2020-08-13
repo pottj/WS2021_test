@@ -10,27 +10,30 @@
 4) lokale Arbeitskopie (Stichwort clone).
     * lokal git-Ordner erstellen (Bsp: "C:/user/docs/myGitProjects")
     * Terminal in diesem Ordner öffnen
-    * git clone https://github.com/pottj/WS2021_test/
+    * git clone https://github.com/<username>/WS2021_test/
     * Wechsel in die lokale Arbeitskopie
     * Jetzt kann git genutzt werden :)
     * s. https://rogerdudler.github.io/git-guide/index.de.html
-4) Eigenen Branch der Übung anlegen (Name "Studentname_Übung_i")
-5) Wechsel in den neuen Branch
-6) Kopie der Übungsdatei im Ordner "Abgabe_i" anlegen (copy paste + umbenennen)
-7) Datei mit git tracken
-8) Übung durchführen
-9) Zum eigenen Repository synchronisieren ("push")
-10) In GitHub mit Orignal zusammenführen ("merging" via "pull request")
-11) Freuen, dass es geklappt hat
-12) Bei Fragen Issue aufmachen (in GitHub)
+5) Eigenen Branch der Übung anlegen ("branch", Name geeignet wählen, z.B. "Studentname_Übung_i")
+6) Check ob alles geklappt hat ("status", "branch --list")
+7) Kopie der Übungsdatei im Ordner "Abgabe_i" anlegen (copy paste + umbenennen)
+8) Datei mit git tracken ("add", "commit")
+9) Übung durchführen & Änderungen tracken ("status","add", & "commit")
+10) Zum eigenen Repository synchronisieren ("push")
+11) In GitHub mit Orignal zusammenführen ("merging" via "pull request")
+12) Freuen, dass es geklappt hat
+13) Bei Fragen Issue aufmachen (in GitHub)
 
 
  ## Die wichtigsten Kommandos
  
- 1) git status --> was ist im Repository, welche Veränderungen gibt es?
- 2) git log --> Commit History wird angezeigt
- 3) git remote -v --> zeigt upstream repositories (Origin ist WS2021_test)
- 4) git branch --list --> zeigt branches an (sollte nur den Master-Branch geben)
- 5) git add <Datei> --> Datei für commit vormerken ("stage")
- 6) git commit --> alles was vorgemerkt ist wird im neuen Branch gespeichert ("commit")
- 7) git push origin <Branchname> --> wird auf das Git Repository zurückgespielt
+ * git status --> was ist im Repository, welche Veränderungen gibt es?
+ * git log --> Commit History wird angezeigt
+ * git remote -v --> zeigt upstream repositories (Origin ist WS2021_test)
+ * git checkout -b <branch> --> erzeugt und wechselt in neuen Branch
+ * git diff <Datei> --> zeige Änderungen an
+ * git branch --list --> zeigt Branches an
+ * git add <Datei> --> Datei für commit vormerken ("stage")
+ * git commit --> alles was vorgemerkt ist wird im neuen Branch gespeichert ("commit")
+ * git push origin <Branchname> --> wird auf das Git Repository zurückgespielt
+  
